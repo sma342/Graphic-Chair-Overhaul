@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Armchair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/Armchair/Armchair_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "DiningChair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/Diningchair/DiningChair_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,1)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+	</Operation>
+	
+</Patch>

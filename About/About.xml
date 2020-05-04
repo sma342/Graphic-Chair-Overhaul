@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Graphic Chair Overhaul</name>
+  	<packageId>Bunkier.GraphicChairOverhaul</packageId>
+	<author>Bunkier</author>
+	<url>https://ludeon.com/forums/index.php?topic=47781.0</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies />
+	<loadAfter>
+		<li>wofl.MoreFurnitureUpdated</li>
+		<li>spoonshortage.rimkea</li>
+		<li>Solaris.FurnitureBase</li>
+		<li>VanillaExpanded.VFECore</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
+	<description>Mod that makes your colonists look like they're actually sitting on the chairs!
+
+Currently supported mods/DLCs:
+More Furniture mod
+Rimkea
+Gloomy Furniture
+Vanilla Furniture Expanded Core
+Royalty DLC
+
+How to make em work
+Just load GCO after them.
+
+Conflicts
+Mod currently doesn't work with Oskar's HD retexture.
+</description>
+</ModMetaData>
+  

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>More Furniture [1.1]</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Anon2SquareDiningChair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/Anon2MoreFurniture/SquareChair_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			          <li  Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Anon2CushionedChair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/Anon2MoreFurniture/ComfyChair_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			          <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Anon2CouchRight"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/Anon2MoreFurniture/CouchR_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			          <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Anon2CouchLeft"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/Anon2MoreFurniture/CouchL_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			          <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Anon2CouchCenter"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/Anon2MoreFurniture/CouchM_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			          <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Anon2CouchCorner"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/Anon2MoreFurniture/CouchC_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+        </operations>
+    </match>
+</Operation>
+
+</Patch>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RIMkea</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "SITTSLABChair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/Rimkea/SITT_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.5)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			          <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "SITEGGArmchair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/Rimkea/SIT_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.5)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			          <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "CHILLEGGCouch"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/Rimkea/CHILL_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(4.3)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+        </operations>
+    </match>
+</Operation>
+
+</Patch>

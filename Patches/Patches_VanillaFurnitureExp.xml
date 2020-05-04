@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Furniture Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Seat_SquareChair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/VanillaFurnitureExp/Chair_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,1)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			         <li  Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Seat_ModernChair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/VanillaFurnitureExp/OfficeChair_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,1)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			          <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Seat_RoyalChair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/VanillaFurnitureExp/RoyalChair_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,1)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			          <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Seat_RoyalArmchair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/VanillaFurnitureExp/RoyalArmchair_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(2.6,2.6)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+        </operations>
+    </match>
+</Operation>
+
+</Patch>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>GloomyFurniture</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "RGK_Chair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/GloomyFurniture/RGK_Chair1_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.3)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			          <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "RGKDiningChair"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/GloomyFurniture/RGK_Chair3_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.3)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+			          <li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "GL_Bench"]</xpath>
+		<value>
+	<comps>
+        <li Class="DoubleGraphicLayer.CompProperties_SecondLayer">
+          <graphicData>
+            <texPath>Things/Building/Furniture/GloomyFurniture/Bench_back</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(2.3)</drawSize>
+          </graphicData>
+          <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+		</value>
+		    </li>
+    <li Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Armchair"]/comps</xpath>
+        </li>
+    <li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Armchair"]/comps</xpath>
+		<value>
+      <li Class="CompProperties_AffectedByFacilities">
+						<linkableFacilities>
+							<li>GL_Teddy</li>
+						</linkableFacilities>
+					</li>
+		</value>
+    </li>
+    </operations>
+       </match>
+</Operation>
+
+</Patch>
