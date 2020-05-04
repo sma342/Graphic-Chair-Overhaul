@@ -1,20 +1,20 @@
 # Graphic-Chair-Overhaul
 Mod that makes your colonists look like they're actually sitting on the chairs!
 
-[h1]Currently supported mods/DLCs:[/h1]
+# Currently supported mods/DLCs
 More Furniture mod
 Rimkea
 Gloomy Furniture
 Vanilla Furniture Expanded Core
 Royalty DLC
 
-[h1]How to make em work[/h1]
+# How to make em work
 Just load GCO after them.
 
-[h1]Conflicts[/h1]
-Mod currently doesn't work with Oskar's HD retexture.
+# Conflicts
+Mod currently doesn't work with Vanilla Textures Expanded
 
-[h1]Credits[/h1]
+# Credits
 Thanks to Mlie for updating this to 1.1!
 
-[url=https://ludeon.com/forums/index.php?topic=47781.0]Ludeon Forums[/url]
+[Ludeon Forums](https://ludeon.com/forums/index.php?topic=47781.0)
